@@ -1,8 +1,8 @@
 package org.BancoDigital;
 
 public class ContaInvestimento extends Conta{
-    public ContaInvestimento(Cliente cliente) {
-        super(cliente);
+    public ContaInvestimento(Cliente cliente, Banco banco) {
+        super(cliente, banco);
         this.digito = 15;
     }
 
